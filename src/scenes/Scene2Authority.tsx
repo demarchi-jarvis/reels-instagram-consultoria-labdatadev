@@ -34,7 +34,7 @@ export const Scene2Authority: React.FC = () => {
   const checkOpacity = interpolate(frame, [100, 118], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   const checkScale = interpolate(frame, [100, 118], [0.3, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.34, 1.56, 0.64, 1) });
 
-  const exitOpacity = interpolate(frame, [118, 140], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
+  const exitOpacity = interpolate(frame, [248, 270], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
 
   return (
     <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'flex-start', flexDirection: 'column', padding: '0 72px', opacity: Math.min(fadeIn, exitOpacity) }}>

@@ -22,8 +22,8 @@ export const Scene1Intro: React.FC = () => {
   const glowIntensity = glowReady * (18 + glowPulse * 14);
   const subOpacity = interpolate(frame, [55, 78], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic) });
   const subY = interpolate(frame, [55, 78], [18, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.16, 1, 0.3, 1) });
-  const exitOpacity = interpolate(frame, [108, 130], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
-  const exitBlur = interpolate(frame, [108, 130], [0, 10], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+  const exitOpacity = interpolate(frame, [158, 180], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
+  const exitBlur = interpolate(frame, [158, 180], [0, 10], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   const masterOpacity = Math.min(fadeIn, exitOpacity);
   const masterBlur = Math.max(blurIn, exitBlur);
 

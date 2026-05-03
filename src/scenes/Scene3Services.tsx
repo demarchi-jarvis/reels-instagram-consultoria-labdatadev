@@ -38,7 +38,7 @@ export const Scene3Services: React.FC = () => {
   const seloOpacity1 = interpolate(frame, [108, 125], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   const seloOpacity2 = interpolate(frame, [121, 138], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
 
-  const exitOpacity = interpolate(frame, [128, 150], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
+  const exitOpacity = interpolate(frame, [218, 240], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
 
   const seloColors = ['#FFD700', '#FF6B35', '#0066ff'];
   const seloScales = [selo0, selo1, selo2];
