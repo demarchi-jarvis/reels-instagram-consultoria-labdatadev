@@ -1,33 +1,32 @@
 export const CONTENT = {
-  empresa: 'Laboratório Demarchi',
-  tagline: 'Desenvolvimento e Dados',
   handle: '@labdatadev',
-  headline: 'Consultoria de TI',
-  headlineSub: 'de Alto Nível',
-  claim: 'Soluções reais para empresas reais',
+  empresa: 'Laboratório Demarchi',
 
-  autoridade: [
-    { nome: 'Globo', setor: 'Mídia & Entretenimento' },
-    { nome: 'Itaú', setor: 'Financeiro' },
-    { nome: 'Stefanini Group', setor: 'Tecnologia' },
-  ],
-
-  metricas: [
-    { label: 'Performance', valor: 94, cor: '#0070f3' },
-    { label: 'SEO', valor: 88, cor: '#3b82f6' },
-    { label: 'Tráfego', valor: 76, cor: '#60a5fa' },
-    { label: 'Leads', valor: 83, cor: '#93c5fd' },
-  ],
-
-  servicos: 'Site Modular + SEO + Tráfego Orgânico',
-
-  oferta: {
-    de: 'R$ 1.900',
-    por: 'R$ 1.690',
-    badge: 'OFERTA ESPECIAL',
-    beneficio: 'com infraestrutura inclusa',
-    foco: '1º e 2º mês — Site Modular + SEO',
+  hook: {
+    pre: 'Você sabe o que realmente faz',
+    destaque: 'um Consultor de TI?',
+    sub: 'A resposta vai mudar como você vê tecnologia',
   },
 
-  cta: 'Link na Bio',
+  problema: {
+    negacao: 'NÃO é o cara que instala software.',
+    definicao: 'É o especialista que entra na sua empresa,',
+    acao: 'identifica o gargalo',
+    resultado: 'e entrega a solução funcionando.',
+  },
+
+  solucao: {
+    titulo: 'A diferença é simples',
+    esquerda: { label: '6 MESES', descricao: 'seu time aprendendo' },
+    direita: { label: '2 SEMANAS', descricao: 'o consultor resolvendo' },
+    argumento: 'Quem já fez isso dezenas de vezes não precisa testar.',
+    selos: ['FIAP', 'AWS', 'Mão na Massa'],
+  },
+
+  oferta: {
+    linha1: 'Uma diária minha.',
+    linha2: 'Resultado de um time inteiro.',
+    cta: 'Primeira conversa gratuita',
+    sub: 'Link na bio · sem enrolação',
+  },
 } as const;

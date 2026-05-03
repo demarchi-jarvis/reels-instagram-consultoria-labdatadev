@@ -2,13 +2,13 @@ import "./index.css";
 import { Composition } from "remotion";
 import { ConsultoriaReel } from "./ConsultoriaReel";
 
-// Instagram Reels: 1080×1920 portrait · 30fps · 450 frames = 15 seconds
+// Instagram Reels: 1080×1920 portrait · 30fps · 600 frames = 20 seconds
 export const RemotionRoot: React.FC = () => {
   return (
     <Composition
       id="ConsultoriaReel"
       component={ConsultoriaReel}
-      durationInFrames={450}
+      durationInFrames={600}
       fps={30}
       width={1080}
       height={1920}
